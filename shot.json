@@ -1,0 +1,41 @@
+{
+  "duration": 15.0,
+  "effects": {
+    "floor_radiance": [130000.0, 48000.0, 9600.0],
+    "window_emission": 90.0,
+    "flash_decay": 1.65,
+    "smoke_density": 0.55,
+    "soot_half_life": 10.0,
+    "dust_half_life": 6.8,
+    "smoke_radius": 28.0,
+    "smoke_lift": 2.2,
+    "smoke_detail": 0.18,
+    "smoke_albedo": 0.75,
+    "smoke_wind": [0.55, 0.0, 0.18],
+    "smoke_step_size": 0.5
+  },
+  "camera_keyframes": [
+    {"time": 0.0, "position": [0.0, 1.10, 6.2], "target": [0.0, 1.18, -35.0], "fov_x": 63.0},
+    {"time": 15.0, "position": [0.12, 1.12, 5.7], "target": [0.0, 1.22, -35.0], "fov_x": 63.0}
+  ],
+  "explosions": [
+    {
+      "building": "tower_1", "time": 3.0, "collapse_delay": 0.85,
+      "collapse_duration": 4.6, "compaction_ratio": 0.08,
+      "lean_degrees": [0.3, -0.6], "intensity_scale": 1.0, "seed": 167,
+      "floors": [{"height": 0.30, "delay": 0.0}, {"height": 0.40, "delay": 0.16}, {"height": 0.48, "delay": 0.32}]
+    },
+    {
+      "building": "tower_2", "time": 6.0, "collapse_delay": 0.85,
+      "collapse_duration": 4.8, "compaction_ratio": 0.08,
+      "lean_degrees": [-0.2, 0.7], "intensity_scale": 1.2, "seed": 267,
+      "floors": [{"height": 0.30, "delay": 0.0}, {"height": 0.40, "delay": 0.16}, {"height": 0.48, "delay": 0.32}]
+    },
+    {
+      "building": "tower_3", "time": 8.5, "collapse_delay": 0.85,
+      "collapse_duration": 4.6, "compaction_ratio": 0.08,
+      "lean_degrees": [0.4, -0.5], "intensity_scale": 2.0, "seed": 367,
+      "floors": [{"height": 0.40, "delay": 0.0}, {"height": 0.48, "delay": 0.16}, {"height": 0.56, "delay": 0.32}]
+    }
+  ]
+}
